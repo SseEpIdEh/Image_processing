@@ -4,6 +4,8 @@
 
 
 **Lesson2**
+
+
  **performing core operations on the image (Core Operations)**
  
 1.Reading and editing pixel images

@@ -15,3 +15,5 @@ Introduction and basic familiarity with applying changes to the image
 4.Drawing text and geometric shapes on the image
 
 5.Additional example (doing two short and related projects)
+****************************************
+# for NEXT LESSON please change the branch.

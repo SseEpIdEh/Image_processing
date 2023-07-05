@@ -1,7 +1,7 @@
 # image_processing
 
 ******************************************************************************
-# for Lesson two please change the branch : 
+
 
 **Lesson2**
  **performing core operations on the image (Core Operations)**

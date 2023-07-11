@@ -2,50 +2,6 @@
 
 **Introductory tutorial on image processing with OpenCV in Python**
 
-
-
-**Lesson 1:**
-
-Introduction and basic familiarity with applying changes to the image
-
-1.Introduction and prerequisites
-
-2.Install OpenCV library
-
-3.Upload, display and save images
-
-4.Drawing text and geometric shapes on the image
-
-5.Additional example (doing two short and related projects)
-****************************************
-# for NEXT LESSON please change the branch.
-
-**The second lesson: performing core operations on the image (Core Operations)**
-
-1.Reading and editing pixel images
-
-2.Working with Region of Image (ROI)
-
-3.Separation and integration of images
-
-4.Draw a border on the image
-
-5.Combine images
-
-*********************************************************
-
-**Third lesson: Mathematical tools in OpenCV**
-
-1.Changing the color space
-
-2.Determine the HSV value of the image
-
-3.Apply a threshold to the image
-
-4.Otsu division
-
-5.Geometric transformations on the image
-
 *********************************************************
 
 **Lesson 4: Getting to know and applying filters to images**
@@ -61,40 +17,19 @@ Introduction and basic familiarity with applying changes to the image
 
 5.Double filter
 
-*****************************************************************
+# why we need to use filter in chemical imaging:
 
-**Fifth lesson: morphological transformations**
+**Filters can indeed be useful in chemical imaging applications. Chemical imaging involves capturing images that provide spatial and spectral information about the composition and distribution of chemicals within a sample.**
 
-1.Erosion
+**Here are a few ways you can apply the filters you've learned in chemical imaging:**
 
-2.Dilation
+1.Noise Reduction: Chemical imaging techniques often involve capturing data from various sources, such as spectroscopy or microscopy. Noise reduction filters like the **Gaussian** or **Median filter** can help remove noise or artifacts that may be present in the acquired images, resulting in cleaner and more accurate chemical information.
 
-3.Opening & Closing
+2.Edge Detection: Edge detection filters like the **Sobel** or **Laplacian filters** can be used to enhance edges or boundaries between different chemical components or regions in an image. This can aid in identifying and segmenting different chemical species or regions of interest within the sample.
 
-4.Morphological Gradient و Top Hat ,Black Hat
+*****
+next lesson:
 
-5.Structural element
-*******************************************************************
-**Sixth lesson: image gradient and edge detection**
+3.Image Enhancement: Filters such as the Contrast Enhancement or Histogram Equalization filters can be applied to enhance the visibility of chemical features or improve the overall contrast of the chemical images. These filters can help reveal subtle chemical variations and make them more distinguishable.
 
-1.Sobel derivatives
-
-2.Laplacin
-
-3.Canny edge detection
-
-**********************************************************************
-**Lesson 7: Histogram**
-
-1.Draw a histogram
-
-2.Histogram smoothing
-
-3.Contrast-limited adaptive histogram equalization
-
-****************************************************************************
-**Lesson 8: pattern matching**
-
-1.Match an object in the image
-
-2.Match multiple objects in the image
+4.Feature Extraction: Filters like the Gabor filter or Wavelet transform can be employed for feature extraction in chemical imaging. These filters can capture specific spatial or spectral patterns associated with different chemical components or structures within the sample, enabling more advanced analysis and classification tasks.
